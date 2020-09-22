@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y2s-AN-5Ia">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--My View One View Controller-->
+        <scene sceneID="3s4-Fg-se4">
+            <objects>
+                <viewController id="Y2s-AN-5Ia" customClass="MyViewOneViewController" customModule="navigation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="T8r-98-yLL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74S-rF-H6H">
+                                <rect key="frame" x="100" y="144" width="214" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.57838192669999999" blue="0.62727786050000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Lq0-Zn-xK1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <state key="normal" title="My View One Modal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonMyViewOneModalClick:" destination="Y2s-AN-5Ia" eventType="touchUpInside" id="8XI-ca-9i6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gRm-Xt-9G9">
+                                <rect key="frame" x="100" y="224" width="214" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.57838192669999999" blue="0.62727786050000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="AtX-AS-6ff"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <state key="normal" title="My View One Pushed">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonMyViewOnePushed:" destination="Y2s-AN-5Ia" eventType="touchUpInside" id="NwG-H2-cM4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.15294118230000001" green="0.29019609089999998" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="74S-rF-H6H" firstAttribute="leading" secondItem="wkv-TA-ndC" secondAttribute="leading" constant="100" id="8su-Sy-Svc"/>
+                            <constraint firstItem="wkv-TA-ndC" firstAttribute="trailing" secondItem="74S-rF-H6H" secondAttribute="trailing" constant="100" id="GzG-M5-629"/>
+                            <constraint firstItem="wkv-TA-ndC" firstAttribute="trailing" secondItem="gRm-Xt-9G9" secondAttribute="trailing" constant="100" id="ZSn-ul-5g8"/>
+                            <constraint firstItem="gRm-Xt-9G9" firstAttribute="leading" secondItem="wkv-TA-ndC" secondAttribute="leading" constant="100" id="ehx-jD-4bc"/>
+                            <constraint firstItem="74S-rF-H6H" firstAttribute="top" secondItem="wkv-TA-ndC" secondAttribute="top" constant="100" id="heb-f7-MZ3"/>
+                            <constraint firstItem="gRm-Xt-9G9" firstAttribute="top" secondItem="74S-rF-H6H" secondAttribute="bottom" constant="50" id="pcz-J4-sbG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wkv-TA-ndC"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xeD-fu-iFQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.826086956521742" y="45.535714285714285"/>
+        </scene>
+    </scenes>
+</document>

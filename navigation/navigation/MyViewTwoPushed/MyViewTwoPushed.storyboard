@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PWm-ZA-JQl">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--My View Two Pushed View Controller-->
+        <scene sceneID="aDm-wn-w1C">
+            <objects>
+                <viewController id="PWm-ZA-JQl" customClass="MyViewTwoPushedViewController" customModule="navigation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="D2B-Il-NBp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L8M-22-sYJ">
+                                <rect key="frame" x="100" y="224" width="214" height="30"/>
+                                <color key="backgroundColor" red="0.88391732460000005" green="0.55054725090000001" blue="0.035777676699999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="oeS-IG-Ap5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <state key="normal" title="Fechar">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionClose:" destination="PWm-ZA-JQl" eventType="touchUpInside" id="ksv-BF-YFp"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My View Two Pushed:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ye-sB-8cB">
+                                <rect key="frame" x="100" y="144" width="214" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="OLz-y2-yeN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.15294118230000001" green="0.29019609089999998" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="J25-dW-yZp" firstAttribute="trailing" secondItem="6Ye-sB-8cB" secondAttribute="trailing" constant="100" id="1hb-mZ-ucJ"/>
+                            <constraint firstItem="J25-dW-yZp" firstAttribute="trailing" secondItem="L8M-22-sYJ" secondAttribute="trailing" constant="100" id="Dhe-yV-iUu"/>
+                            <constraint firstItem="6Ye-sB-8cB" firstAttribute="leading" secondItem="J25-dW-yZp" secondAttribute="leading" constant="100" id="UJC-gN-TUT"/>
+                            <constraint firstItem="6Ye-sB-8cB" firstAttribute="top" secondItem="J25-dW-yZp" secondAttribute="top" constant="100" id="Vgz-pM-UKh"/>
+                            <constraint firstItem="L8M-22-sYJ" firstAttribute="leading" secondItem="J25-dW-yZp" secondAttribute="leading" constant="100" id="qBg-jU-PlR"/>
+                            <constraint firstItem="L8M-22-sYJ" firstAttribute="top" secondItem="6Ye-sB-8cB" secondAttribute="bottom" constant="50" id="ruR-F0-KJp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="J25-dW-yZp"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Ne-L4-zRF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-742" y="86"/>
+        </scene>
+    </scenes>
+</document>

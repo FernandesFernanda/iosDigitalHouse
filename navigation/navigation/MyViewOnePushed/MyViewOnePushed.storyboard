@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xWQ-H2-28O">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--My View One Pushed View Controller-->
+        <scene sceneID="N7H-Sz-HfC">
+            <objects>
+                <viewController id="xWQ-H2-28O" customClass="MyViewOnePushedViewController" customModule="navigation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="n6b-fE-Vcp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uMp-Cy-hrc">
+                                <rect key="frame" x="100" y="224" width="214" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.57838192669999999" blue="0.62727786050000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="6yK-Q9-0sX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <state key="normal" title="Fechar">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionClose:" destination="xWQ-H2-28O" eventType="touchUpInside" id="5j4-oy-0uf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My View One Pushed:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yh3-Xl-Ckl">
+                                <rect key="frame" x="100" y="144" width="214" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="SIL-zU-3wR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.15294118230000001" green="0.29019609089999998" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="haL-vy-yti" firstAttribute="trailing" secondItem="Yh3-Xl-Ckl" secondAttribute="trailing" constant="100" id="5DI-Iu-pm6"/>
+                            <constraint firstItem="Yh3-Xl-Ckl" firstAttribute="leading" secondItem="haL-vy-yti" secondAttribute="leading" constant="100" id="DG4-Pm-nPA"/>
+                            <constraint firstItem="Yh3-Xl-Ckl" firstAttribute="top" secondItem="haL-vy-yti" secondAttribute="top" constant="100" id="Pcv-PS-Kmf"/>
+                            <constraint firstItem="Yh3-Xl-Ckl" firstAttribute="top" secondItem="haL-vy-yti" secondAttribute="top" constant="100" id="eLg-Nv-Ean"/>
+                            <constraint firstItem="haL-vy-yti" firstAttribute="trailing" secondItem="uMp-Cy-hrc" secondAttribute="trailing" constant="100" id="ng6-T1-DWY"/>
+                            <constraint firstItem="uMp-Cy-hrc" firstAttribute="leading" secondItem="haL-vy-yti" secondAttribute="leading" constant="100" id="whl-39-MT8"/>
+                            <constraint firstItem="uMp-Cy-hrc" firstAttribute="top" secondItem="Yh3-Xl-Ckl" secondAttribute="bottom" constant="50" id="zYa-Iy-iXM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="haL-vy-yti"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ca6-cG-6UN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-909" y="44"/>
+        </scene>
+    </scenes>
+</document>

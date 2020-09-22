@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="MYJ-MC-hON">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="navigation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Navigation:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="08M-ue-8qq">
+                                <rect key="frame" x="100" y="113" width="214" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qvY-gz-mc4">
+                                <rect key="frame" x="100" y="163" width="214" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.57838192669999999" blue="0.62727786050000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="8iq-zO-ldP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="My View One">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonMyViewOneClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w4u-76-GwC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UtD-ed-Afm">
+                                <rect key="frame" x="100" y="213" width="214" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.57838192669999999" blue="0.62727786050000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="tWE-dR-Swa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="My View One Modal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonMyViewOneModalClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZEY-Uz-V92"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dO9-gK-Uix">
+                                <rect key="frame" x="100" y="368" width="214" height="30"/>
+                                <color key="backgroundColor" red="0.8839173245673575" green="0.55054725094139323" blue="0.035777676700976743" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="wxP-sQ-mFZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="My View Two">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonViewTwoClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n26-Af-n2o"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WfO-8s-6tO">
+                                <rect key="frame" x="100" y="418" width="214" height="30"/>
+                                <color key="backgroundColor" red="0.8839173245673575" green="0.55054725094139323" blue="0.035777676700976743" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="l1k-3F-txh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="My View TwoModal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonViewTwoModalClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1o4-IK-r74"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Gd-0N-ljC">
+                                <rect key="frame" x="100" y="468" width="214" height="30"/>
+                                <color key="backgroundColor" red="0.8839173245673575" green="0.55054725094139323" blue="0.035777676700976743" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="iny-Gr-QoD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="My View Two Pushed">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonViewTwoPushedClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="teh-KH-69B"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O9c-fi-TO6">
+                                <rect key="frame" x="100" y="573" width="214" height="30"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="qnr-dC-A3p"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="My View Three">
+                                    <color key="titleColor" red="0.90222072600000003" green="0.469892323" blue="0.015807799989999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonMyViewThree:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0tD-48-wbW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="roW-hZ-mi7">
+                                <rect key="frame" x="100" y="623" width="214" height="30"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Gwb-jk-xIU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="My View Three Modal">
+                                    <color key="titleColor" red="0.90222072600000003" green="0.469892323" blue="0.015807799989999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonMyViewThreeModal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gj9-0m-6E8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pAd-GC-LeK">
+                                <rect key="frame" x="100" y="673" width="214" height="30"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5de-NJ-gXw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="My View Three Pushed">
+                                    <color key="titleColor" red="0.90222072600000003" green="0.469892323" blue="0.015807799989999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonMyViewThreePushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="crb-Xu-LNN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wq6-Q8-GxJ">
+                                <rect key="frame" x="100" y="263" width="214" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.57838192669999999" blue="0.62727786050000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="0WT-gu-a6R"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="My View One Pushed">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonMyViewOnePushedClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MZO-dw-m4L"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.15294118230000001" green="0.29019609089999998" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="O9c-fi-TO6" secondAttribute="trailing" constant="100" id="0Ke-vc-Vg7"/>
+                            <constraint firstItem="08M-ue-8qq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="0g5-pu-Klq"/>
+                            <constraint firstItem="7Gd-0N-ljC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="2X8-td-tkX"/>
+                            <constraint firstItem="WfO-8s-6tO" firstAttribute="top" secondItem="dO9-gK-Uix" secondAttribute="bottom" constant="20" id="4ME-tX-wbf"/>
+                            <constraint firstItem="pAd-GC-LeK" firstAttribute="top" secondItem="roW-hZ-mi7" secondAttribute="bottom" constant="20" id="5Ll-PG-wYr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Gd-0N-ljC" secondAttribute="trailing" constant="100" id="8gC-xf-5oN"/>
+                            <constraint firstItem="qvY-gz-mc4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="BeR-zE-rZl"/>
+                            <constraint firstItem="wq6-Q8-GxJ" firstAttribute="top" secondItem="UtD-ed-Afm" secondAttribute="bottom" constant="20" id="CJD-31-avc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wq6-Q8-GxJ" secondAttribute="trailing" constant="100" id="F1n-5a-BJl"/>
+                            <constraint firstItem="wq6-Q8-GxJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="F2h-uG-xEP"/>
+                            <constraint firstItem="UtD-ed-Afm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="Fnv-dV-s8S"/>
+                            <constraint firstItem="roW-hZ-mi7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="JnG-VL-KK8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UtD-ed-Afm" secondAttribute="trailing" constant="100" id="MHW-xz-OXC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dO9-gK-Uix" secondAttribute="trailing" constant="100" id="N7q-5f-pyD"/>
+                            <constraint firstItem="dO9-gK-Uix" firstAttribute="top" secondItem="wq6-Q8-GxJ" secondAttribute="bottom" constant="75" id="R2Y-G5-DcU"/>
+                            <constraint firstItem="08M-ue-8qq" firstAttribute="leading" secondItem="qvY-gz-mc4" secondAttribute="leading" id="SUA-yN-Eq6"/>
+                            <constraint firstItem="UtD-ed-Afm" firstAttribute="top" secondItem="qvY-gz-mc4" secondAttribute="bottom" constant="20" id="YwR-TN-G3e"/>
+                            <constraint firstItem="O9c-fi-TO6" firstAttribute="top" secondItem="7Gd-0N-ljC" secondAttribute="bottom" constant="75" id="buJ-0S-aiH"/>
+                            <constraint firstItem="roW-hZ-mi7" firstAttribute="top" secondItem="O9c-fi-TO6" secondAttribute="bottom" constant="20" id="c3g-Z2-HcJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WfO-8s-6tO" secondAttribute="trailing" constant="100" id="gKR-oX-OZK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="roW-hZ-mi7" secondAttribute="trailing" constant="100" id="gxe-Pw-zmc"/>
+                            <constraint firstItem="qvY-gz-mc4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="75" id="jTa-ur-hLU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qvY-gz-mc4" secondAttribute="trailing" constant="100" id="k6d-JG-BAD"/>
+                            <constraint firstItem="pAd-GC-LeK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="kPb-KV-QZE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pAd-GC-LeK" secondAttribute="trailing" constant="100" id="lrF-6K-n6P"/>
+                            <constraint firstItem="WfO-8s-6tO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="sOn-oz-Dii"/>
+                            <constraint firstItem="7Gd-0N-ljC" firstAttribute="top" secondItem="WfO-8s-6tO" secondAttribute="bottom" constant="20" id="uuU-LL-Wax"/>
+                            <constraint firstItem="dO9-gK-Uix" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="yIZ-Dv-hFj"/>
+                            <constraint firstItem="O9c-fi-TO6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="yZy-5m-tBd"/>
+                            <constraint firstItem="08M-ue-8qq" firstAttribute="trailing" secondItem="qvY-gz-mc4" secondAttribute="trailing" id="yqw-X4-gNp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Gxd-kn-lWf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3582.608695652174" y="126.5625"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Jrc-cz-k1d">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MYJ-MC-hON" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Jdw-4d-hhw">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="emM-SJ-pfu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p7Q-hj-KrF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2672.4637681159425" y="126.5625"/>
+        </scene>
+    </scenes>
+</document>
