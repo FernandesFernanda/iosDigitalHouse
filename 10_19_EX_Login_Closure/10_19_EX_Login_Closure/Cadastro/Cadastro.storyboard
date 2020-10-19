@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="C3u-6g-Jyv">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Cadastro View Controller-->
+        <scene sceneID="Xv3-Cu-jEr">
+            <objects>
+                <viewController id="C3u-6g-Jyv" customClass="CadastroViewController" customModule="_0_19_EX_Login_Closure" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mdg-Wm-2Zv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nv3-0M-rfI">
+                                <rect key="frame" x="20" y="64" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Senha" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rN0-ua-Bmx">
+                                <rect key="frame" x="20" y="108" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jvm-sH-uUI">
+                                <rect key="frame" x="20" y="152" width="374" height="30"/>
+                                <color key="backgroundColor" red="0.88391732460000005" green="0.55054725090000001" blue="0.035777676699999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Cadastrar">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionRealizarCadastro" destination="C3u-6g-Jyv" eventType="touchUpInside" id="ztP-Vt-UWs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Nyv-fH-86e" firstAttribute="trailing" secondItem="jvm-sH-uUI" secondAttribute="trailing" constant="20" id="B4p-Ev-hRU"/>
+                            <constraint firstItem="jvm-sH-uUI" firstAttribute="leading" secondItem="Nyv-fH-86e" secondAttribute="leading" constant="20" id="Mtg-Bm-5jT"/>
+                            <constraint firstItem="rN0-ua-Bmx" firstAttribute="top" secondItem="nv3-0M-rfI" secondAttribute="bottom" constant="10" id="jl5-hq-QiY"/>
+                            <constraint firstItem="rN0-ua-Bmx" firstAttribute="leading" secondItem="Nyv-fH-86e" secondAttribute="leading" constant="20" id="kvz-yZ-aSG"/>
+                            <constraint firstItem="jvm-sH-uUI" firstAttribute="top" secondItem="rN0-ua-Bmx" secondAttribute="bottom" constant="10" id="mOe-2f-NCs"/>
+                            <constraint firstItem="nv3-0M-rfI" firstAttribute="top" secondItem="Nyv-fH-86e" secondAttribute="top" constant="20" id="n2Z-2O-dch"/>
+                            <constraint firstItem="Nyv-fH-86e" firstAttribute="trailing" secondItem="rN0-ua-Bmx" secondAttribute="trailing" constant="20" id="qMq-Uw-obZ"/>
+                            <constraint firstItem="nv3-0M-rfI" firstAttribute="leading" secondItem="Nyv-fH-86e" secondAttribute="leading" constant="20" id="qxV-M6-BFJ"/>
+                            <constraint firstItem="Nyv-fH-86e" firstAttribute="trailing" secondItem="nv3-0M-rfI" secondAttribute="trailing" constant="20" id="rHD-VF-iDO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Nyv-fH-86e"/>
+                    </view>
+                    <connections>
+                        <outlet property="textFieldEmail" destination="nv3-0M-rfI" id="fN3-qd-WZR"/>
+                        <outlet property="textFieldSenha" destination="rN0-ua-Bmx" id="0v7-X5-QB2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="coC-xv-FKT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="164" y="135"/>
+        </scene>
+    </scenes>
+</document>
