@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         
         let restauranteFogoDeChao = Business(coordinate: locationFogoDeChao.coordinate, title: "Fogo de Chão", subtitle: "Churrascaria", category: "Restaurante")
         let mequi = Business(coordinate: locationMequi1000.coordinate, title: "Méqui 1000", subtitle: "Lanches", category: "Restaurante")
-        let hotelTivoliMofarrej = Business(coordinate: locationHotelTivoliMofarrej.coordinate, title: "Hotel Tivoly Mofarrej", subtitle: "Turismo", category: "Hotel")
+        let hotelTivoliMofarrej = Business(coordinate: locationHotelTivoliMofarrej.coordinate, title: "Hotel Tivoli Mofarrej", subtitle: "Turismo", category: "Hotel")
         let hotelIbis = Business(coordinate: locationHotelIbis.coordinate, title: "Hotel Ibis", subtitle: "Turismo", category: "Hotel")
         let supermercadoPaoDeAcucar = Business(coordinate: locationSupermercadoPaoDeAcucar.coordinate, title: "Supermercado Pão de Açúcar", subtitle: "Alimentos", category: "Supercado")
         let restauranteSiSenor = Business(coordinate: locationRestauranteSiSenor.coordinate, title: "Si Señor", subtitle: "Mexicano", category: "Restaurante")
