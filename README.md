@@ -14,7 +14,7 @@ Curso promovido pelo Programa Santander Coders.<br/>
 * [MapKit](https://github.com/FernandesFernanda/iosDigitalHouse/tree/master/MapKit)
 * [Navigation](https://github.com/FernandesFernanda/iosDigitalHouse/tree/master/navigation)
 * [Pagination](https://github.com/FernandesFernanda/iosDigitalHouse/tree/master/Pagination)
-* [POO] (https://github.com/FernandesFernanda/iosDigitalHouse/tree/master/POO)
+* [POO](https://github.com/FernandesFernanda/iosDigitalHouse/tree/master/POO)
 * [Realm](https://github.com/FernandesFernanda/iosDigitalHouse/tree/master/Realm)
-* [SegmentedControl] (https://github.com/FernandesFernanda/iosDigitalHouse/tree/master/SegmentedControl)
+* [SegmentedControl](https://github.com/FernandesFernanda/iosDigitalHouse/tree/master/SegmentedControl)
 
