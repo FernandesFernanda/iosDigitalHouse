@@ -1,0 +1,6 @@
+framework module Pods_EX_Fipe {
+  umbrella header "Pods-EX_Fipe-umbrella.h"
+
+  export *
+  module * { export * }
+}
