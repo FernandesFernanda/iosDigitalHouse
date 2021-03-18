@@ -1,5 +1,5 @@
 # Digital House - Santander Coders - iOS (Swift)
-Repositório contendo os exercícios e desafios apresentado e realizados durante o curso de iOS da Digital House.<br/>
+Repositório contendo os exercícios e desafios realizados durante o curso de iOS da Digital House.<br/>
 Curso promovido pelo Programa Santander Coders.<br/>
 
 ### Exercícios e Desafios:
